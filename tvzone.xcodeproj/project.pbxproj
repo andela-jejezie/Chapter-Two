@@ -13,6 +13,8 @@
 		1F01C7521D6E44D7003783A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F01C7501D6E44D7003783A0 /* LaunchScreen.storyboard */; };
 		1F9E66CC1D7166AD006579F8 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E66CB1D7166AD006579F8 /* ListViewController.swift */; };
 		1F9E66CE1D71832F006579F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E66CD1D71832F006579F8 /* ViewController.swift */; };
+		A53D73851DA0EABE00530C5A /* MoviesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53D73831DA0EABE00530C5A /* MoviesTableViewCell.swift */; };
+		A53D73861DA0EABE00530C5A /* MoviesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A53D73841DA0EABE00530C5A /* MoviesTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1F01C7531D6E44D7003783A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F9E66CB1D7166AD006579F8 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		1F9E66CD1D71832F006579F8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A53D73831DA0EABE00530C5A /* MoviesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesTableViewCell.swift; sourceTree = "<group>"; };
+		A53D73841DA0EABE00530C5A /* MoviesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoviesTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				1F01C7531D6E44D7003783A0 /* Info.plist */,
 				1F9E66CD1D71832F006579F8 /* ViewController.swift */,
 				1F9E66CB1D7166AD006579F8 /* ListViewController.swift */,
+				A53D73831DA0EABE00530C5A /* MoviesTableViewCell.swift */,
+				A53D73841DA0EABE00530C5A /* MoviesTableViewCell.xib */,
 			);
 			path = tvzone;
 			sourceTree = "<group>";
@@ -99,6 +105,7 @@
 				TargetAttributes = {
 					1F01C7431D6E44D7003783A0 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -127,6 +134,7 @@
 			files = (
 				1F01C7521D6E44D7003783A0 /* LaunchScreen.storyboard in Resources */,
 				1F01C74F1D6E44D7003783A0 /* Assets.xcassets in Resources */,
+				A53D73861DA0EABE00530C5A /* MoviesTableViewCell.xib in Resources */,
 				1F01C74D1D6E44D7003783A0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +148,7 @@
 			files = (
 				1F9E66CE1D71832F006579F8 /* ViewController.swift in Sources */,
 				1F9E66CC1D7166AD006579F8 /* ListViewController.swift in Sources */,
+				A53D73851DA0EABE00530C5A /* MoviesTableViewCell.swift in Sources */,
 				1F01C7481D6E44D7003783A0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +266,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.johnsonejezie.tvzone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -268,6 +278,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.johnsonejezie.tvzone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
